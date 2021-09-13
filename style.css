@@ -20,6 +20,16 @@ img {
     border-radius: 5px;
 }
 
+input {
+    margin: 10px 0px 0px 0px; 
+    border-style: none; 
+    border-bottom: solid; 
+    border-color: aliceblue; 
+    color: black;
+    font-size: 20px; 
+    background-color: rgb(180, 174, 174);
+}
+
 .container-page {
     position: relative;
     display: flex;
@@ -90,7 +100,7 @@ img {
     display: flex;
     left: 0px;
     flex-direction: column;
-    margin: 60px 300px 0px 0px;
+    margin: 60px 200px 0px 100px;
     font-size: 30px;
     font-weight: bold;
 }
@@ -110,21 +120,36 @@ img {
     top: 500px;
     display: flex;
     flex-direction: row;
-    margin: 30px 0px;
-    padding: 10px;
-    width: 700px;
-    height: 150px;
+    margin: 10px 0px;
+    width: 1000px;
+    height: 100px;
     font-size: 25px;
     background-color: rgb(180, 174, 174);
-    z-index: 1;
+    z-index: 2;
 }
 
 .plan {
+    color: black;
     display: flex;
     flex-direction: column;
-    margin: 10px 20px;
+    margin: 20px 20px;
 }
 
+.search-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    background-color: orange;
+    border-style: none;
+    top: -20px;
+    right: -20px;
+    width: 180px;
+    height: 100px;
+    z-index: 3;
+}
 
 .main-img {
     position: relative;
